@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./utility.css" />
+</head>
+
+<body>
+    <div class="container display-flex height-full">
+
+        <div class="left">
+            <div class="home bg-grey border-radius padding10">
+                <div class="spotify-logo">
+                    <img class="color-invert" src="./LOGOS/logo.svg" alt="spotify" />
+                </div>
+                <div class="home-logo display-flex">
+                    <img class="color-invert logo-size" src="./LOGOS/home.svg" alt="spotify" />
+                    <div class="text align-center init-color"><a href="/" class="link-style home-link">Home</a></div>
+                </div>
+                <div class="home-logo display-flex">
+                    <img class="color-invert logo-size" src="./LOGOS/search.svg" alt="search" />
+                    <div class="text align-center init-color display-block" id="search-btn"><a href="/" class="link-style home-link" >Search</a></div>
+                    <div class=" align-center display-none" id="search-bar"><input type="text" placeholder="search here" class=" border-radius "></div>
+                    <div class="display-flex align-center justify-center display-none" id="cross-btn" >
+                        <img src="./LOGOS/cancel.png" class="logo-size" alt="cancel">
+                    </div>
+                </div>
+            </div>
+            <div class="library bg-grey border-radius padding11">
+                <div class="home-logo display-flex position-relative">
+                    <img class="color-invert logo-size" src="./LOGOS/library.svg" alt="search" />
+                    <div class="library-text align-center init-color">Your Library</div>
+                    <div class="align-center position-absolute right0">
+                        <img class="color-invert logo-size2" src="./LOGOS/plusButton.svg" alt="button" />
+                    </div>
+                </div>
+                <div class="footer-things">
+                    <footer>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/" id="" data-encore-id="textLink">
+                                <span data-encore-id="type">Legal</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""
+                                data-encore-id="textLink">
+                                <span data-encore-id="type">Privacy Policy</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""
+                                data-encore-id="textLink">
+                                <span data-encore-id="type">Cookies</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/" id="" data-encore-id="textLink">
+                                <span data-encore-id="type">Accessibility</span>
+                            </a>
+                        </div>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+        <div class="right bg-grey border-radius">
+            <div class="all-btn display-flex">
+                <div class="all-left left-right">
+                    <button type="button" class="left-btn border-radius-50">
+                        <img class="color-invert" src="./LOGOS/left.svg" alt="left" />
+                    </button>
+                    <button type="button" class="left-btn border-radius-50">
+                        <img class="color-invert" src="./LOGOS/right.svg" alt="right" />
+                    </button>
+                </div>
+                <div class="all-right display-flex">
+                    <button type="button " class="button-basic init-color">
+                        Sign Up
+                    </button>
+                    <button type="button" class="login-btn">Log In</button>
+                </div>
+            </div>
+            <div class="remaining">
+                Spotify Playlist
+                <div class="include ">
+                    <div class="spotify-playlist " id="spotify-playlist-id">
+
+
+                    </div>
+                    <div class="play-bar border-radius border-white display-flex">
+                        <div id="play-bar-fix" class="play-bar-fix display-flex">
+
+
+                        </div>
+                        <div class="shuffle-div">
+                            <button class="button-basic2"  type="button"><img class="logo-fix color-invert"
+                                src="./LOGOS/shuffle1.png" alt="previous" id="shuffle"></button>
+                        </div>
+                        <div class="display-flex btnAll">
+                            
+                            <button class="button-basic2"  type="button"><img class="logo-fix"
+                                    src="./LOGOS/previous.png" alt="previous" id="previous"></button>
+                            <button class="button-basic2" type="button"><img class="logo-fix"
+                                    src="./LOGOS/play.png" alt="play"  id="pause-play"></button>
+                            <button class="button-basic2 margin-right" type="button" ><img class="logo-fix"
+                                    src="./LOGOS/next.png" alt="next" id="next"></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
