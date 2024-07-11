@@ -1,0 +1,133 @@
+/* .border-red {
+  border: 2px solid red;
+} */
+.border-white {
+  border: 2px solid #292323;
+}
+
+.color-white {
+  color: white;
+}
+
+.display-flex {
+  display: flex;
+}
+.bg-grey {
+  background-color: #121212;
+}
+.color-invert {
+  filter: invert(1);
+}
+
+.init-color {
+  color: #9d9d9d;
+}
+
+.init-color:hover {
+  color: rgb(227, 221, 221);
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+.border-radius-50 {
+  border-radius: 100%;
+}
+.logo-size {
+  width: 23px;
+}
+.logo-size2 {
+  width: 18px;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.padding10 {
+  padding: 20px;
+}
+.padding11 {
+  padding: 5px 20px;
+}
+.text {
+  font-size: 15px;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.right0 {
+  right: 0px;
+}
+
+.button-basic {
+  background-color: transparent;
+  border: none;
+}
+.button-basic:hover {
+  font-size: 17px;
+}
+
+/* Webkit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Dark color for the thumb */
+  border-radius: 6px;
+  border: 3px solid #222; /* Darker border color for the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #3f3e3e; /* Track color */
+}
+
+/* Firefox */
+/* Note: Firefox currently does not support styling of the scrollbar, so this part may not have an effect in Firefox. */
+/* You can use JavaScript-based solutions for Firefox if needed. */
+
+/* Optional: Show scrollbar only when hovered (Webkit) */
+
+.gap {
+  gap: 10px;
+}
+.link-style {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+.button-basic2 {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+.button-basic2:hover {
+  cursor: pointer;
+  .logo-fix {
+    /* position: fixed; */
+    height: 26px;
+    transition: 0.2s ease-in;
+  }
+}
+
+.margin-right {
+  margin-right: 8px;
+}
+.button-basic3 {
+  border: none;
+  /* background: none; */
+  display: flex;
+  align-items: center;
+}
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
