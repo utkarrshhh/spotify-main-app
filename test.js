@@ -9,7 +9,7 @@ function updatePlayBar(songName, isPaused) {
   h3Element.textContent = songName;
 
   // Update pause/play image
-  const imageUrl = isPaused ? "LOGOS/play.png" : "LOGOS/pause.png";
+  const imageUrl = isPaused ? "/LOGOS/play.png" : "/LOGOS/pause.png";
   logoSongSmall.src = imageUrl;
 }
 
