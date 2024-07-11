@@ -41,7 +41,7 @@ playBarFix.appendChild(logoSongSmall);
 playBarFix.appendChild(h3Element);
 
 const entry = async () => {
-  const response = await fetch("/songs2.json");
+  const response = await fetch("eminem-songs/songs2.json");
   const result = await response.json();
   return result;
 };
