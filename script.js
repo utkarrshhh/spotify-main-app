@@ -73,7 +73,7 @@ const getSongs = async () => {
     playButtonContainer.className = "playbutton-container";
     playButtonContainer.id = `${value.id} ${i}`;
     const playButtonImage = document.createElement("img");
-    playButtonImage.src = "./LOGOS/playbutton.svg";
+    playButtonImage.src = "/LOGOS/playbutton.svg";
     playButtonImage.alt = value.title;
     playButtonImage.className = "playbutton-logo";
     playButtonImage.id = `${value.id} ${i}`;
@@ -134,11 +134,11 @@ const getSongs = async () => {
     console.log("clcked");
     if (isShuffle) {
       shuffleBtn.classList += " color-invert";
-      shuffleBtn.src = "./LOGOS/shuffle1.png";
+      shuffleBtn.src = "/LOGOS/shuffle1.png";
       isShuffle = false;
     } else {
       shuffleBtn.classList.remove("color-invert");
-      shuffleBtn.src = "./LOGOS/shuffle.png";
+      shuffleBtn.src = "/LOGOS/shuffle.png";
       isShuffle = true;
     }
   }
